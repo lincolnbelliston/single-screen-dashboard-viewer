@@ -1,0 +1,36 @@
+body {
+	overflow: hidden;
+}
+
+iframe {
+	width: 1920px;
+	height: 1080px;
+	transform-origin: left top;
+}
+
+#full-screen-container {
+	position: relative;
+}
+
+#full-screen {
+	border: 0px;
+}
+
+.aa {
+	pointer-events: none;
+}
+
+.cc {
+	overflow: hidden;
+}
+
+#bar {
+	position: relative;
+}
+
+#pin {
+	position: absolute;
+	background-color: transparent;
+	border: 1px;
+	border-radius: 2px;
+}

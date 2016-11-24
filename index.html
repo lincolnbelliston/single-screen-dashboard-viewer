@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Single screen dashboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/dashboard9.js"></script>
+	<script src="scripts/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="scripts/css/bootstrap.css">
+	<link rel="stylesheet" href="scripts/css/style9.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="full-screen-container">
+			<iframe id="full-screen" src="colors/red" scrolling="no"></iframe>
+		</div>
+		<div id="bar">
+			<div class="cc" id="c1">
+				<div class="bb" id="b1" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a1" src="colors/red/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c2">
+				<div class="bb" id="b2" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a2" src="colors/white/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c3">
+				<div class="bb" id="b3" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a3" src="colors/lightGreen/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c4">
+				<div class="bb" id="b4" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a4" src="colors/darkGreen/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c5">
+				<div class="bb" id="b5" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a5" src="colors/black/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c6">
+				<div class="bb" id="b6" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a6" src="colors/blue/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+			<div class="cc" id="c7">
+				<div class="bb" id="b7" onclick="makeFullscreen(event)">
+					<iframe class="aa" id="a7" src="/colors/orange/index.html" scrolling="no"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<button id="pin"><span class="glyphicon glyphicon-pushpin"></span></button>
+		
+	
+</body>
+</html>
